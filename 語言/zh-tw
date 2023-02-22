@@ -1,0 +1,175 @@
+{
+  "SEQUENCER": {
+    "OK": "OK",
+    "Cancel": "清除",
+
+    "Effects": "Sequencer效果",
+
+    "PlayerPermissionsWarning": "您好！因為您是 GM，您可以創建效果，但默認情況下<strong>您的玩家也可以</strong>。如果您不想這樣，您可以通過單擊此按鈕來配置權限:",
+
+    "Error": {
+      "CouldNotPlay": "無法播放"
+    },
+
+    "Player": {
+      "Title": "玩家",
+      "SwitchToLayer": "切換到圖層",
+      "PathInput": "輸入數據庫路徑或文件路徑",
+      "AllUsers": "所有用戶",
+      "Presets": "預設:",
+      "PresetsDefault": "默認",
+      "ApplyPresetTitle": "應用預設",
+      "ApplyPresetContent": "A您確定要應用 \"{preset_name}\" 預設嗎？未保存的更改將會丟失。",
+      "CreateNewPresetTitle": "創建新的Sequencer效果預設",
+      "CreateNewPresetInputLabel": "輸入新的預設名稱",
+      "CopyPresetTitle": "複製Sequencer效果預設",
+      "CopyPresetInputLabel": "輸入新的預設名稱",
+      "DefaultErrorTitle": "錯誤",
+      "DefaultErrorContent": "抱歉，您不能將預設命名為 \"default\"。Sequencer 需要它自己。",
+      "OverwritePresetTitle": "覆蓋預設？",
+      "OverwritePresetContent": "您確定要覆蓋 \"{preset_name}\" 預設嗎？",
+      "DeletePresetTitle": "刪除預設？",
+      "DeletePresetContent": "您確定要刪除 \"{preset_name}\" 預設嗎？",
+
+      "Option": {
+        "Scale": "規模",
+        "BelowTokens": "低於TOKEN",
+        "SnapToGrid":  "對齊網格",
+        "RandomRotation": "隨機旋轉",
+        "RandomMirrorY":  "隨機鏡像 Y",
+        "RandomOffset": "隨機偏移",
+        "Repetitions":  "重複",
+        "DelayMin": "延遲(min)",
+        "DelayMax":  "延遲(max)",
+        "Preload": "預加載",
+        "DragBehavior":  "拖動行為：<br>拉伸或移動",
+        "MoveSpeed": "移動速度",
+        "AttachTo": "附加到起點",
+        "StretchToAttach": "附加到終點",
+        "Persist": "持續"
+      }
+    },
+
+    "Hotkeys": {
+      "PlayTool": {
+        "Shift": "Player - 同時播放多種效果(Shift)",
+        "Control": "Player - 依次播放多個效果(Control)"
+      },
+      "SelectTool": {
+        "Control": "Select - Snap to grid(Control)",
+        "Alt": "Select - 附加到畫布上的對象(Alt)",
+        "Delete": "Select - 刪除選中的效果(Delete)"
+      }
+    },
+
+    "Manager": {
+      "Title": "Manager",
+      "NoEffects": "當前沒有播放效果...",
+      "PersistentEffects": "持久效果：",
+      "TemporaryEffects": "臨時效果：",
+      "PlayersEffect": "{user_name} 的效果",
+      "UnknownEffect": "未知用戶的效果",
+      "EndAllEffects": "結束所有效果"
+    },
+
+    "HowTo": {
+      "Title": "操作方法",
+      "Welcome": "歡迎來到 Sequencer 設定!",
+      "Explanation": "使用Player <i class=\"fas fa-play-circle\"></i>可以在畫布上快速播放效果，使用Manager <i class=\"fas fa- film\"></i> 你可以隨時結束持續效果。",
+      "PermissionsExplanation": "因為你是 GM，你可以創建效果，默認情況下，你的玩家也可以。你可以通過點擊這個按鈕來配置設置：",
+      "PlayerExplanation": "使用播放器<i class=\"fas fa-play-circle\"></i>時，需要設置播放什麼效果。點擊<strong>文件輸入</strong>以查看您擁有的數據庫路徑或直接開始鍵入以進行搜索。您可以按其旁邊的 <i class=\"fas fa-file-import\"></i> 按鈕直接搜索文件。",
+      "LayerExplanation": "選擇文件後，您可以在 <i class=\"fas fa-list-ol\"></i> Sequencer Layer 上執行以下任何操作。",
+      "OpenModuleSettings": "打開模塊設置",
+      "Click": "Click",
+      "ClickLabel": "現場播放效果",
+      "ClickDrag": "點擊按住+拖動",
+      "ClickDragLabel": "播放向某個位置拉伸的效果",
+      "Shift": "Shift",
+      "ShiftLabel": "釋放shift後同時播放多種效果",
+      "ShiftControl": "Control",
+      "ShiftControlLabel": "一個接一個地播放多個效果，在它們之間等待",
+      "MoreToCome": "......還有更多內容將在未來的更新中出現！"
+    },
+
+    "Database": {
+      "Title": "Sequencer Database Viewer",
+      "AllPacks": "All packs",
+      "Search": "搜索...",
+      "ButtonFilepath": "文件路徑",
+      "ButtonDatabasePath": "數據庫",
+      "ShowAllRanges": "顯示所有範圍"
+    },
+
+    "Setting": {
+      "DatabaseViewer":{
+        "Title": "Open Sequencer Database Viewer",
+        "Label": "打開數據庫查看器"
+      },
+      "EnablePixiFix": {
+        "Title": "啟用 PIXI 修復",
+        "Label": "T這可以修復 Foundry 中 Sequencer 效果的 alpha - 某些設置（瀏覽器、硬件、軟件等）似乎使該修復過時。"
+      },
+      "EnableGlobalPixiFix": {
+        "Title": "啟用全局 PIXI 修復",
+        "Label": "這可以修復 Foundry 中所有動畫 .webms 文件的 alphas。謹慎使用。"
+      },
+      "EnableAboveUIScreenspace": {
+        "Title": "Enable Above UI Screenspace Layer",
+        "Label": "這啟用了在 Foundry 中所有 UI 元素之上播放效果的圖層 - 一些用戶報告說該圖層會導致嚴重的性能損失，如果是這樣，請禁用它"
+      },
+      "Debug": {
+        "Title": "Enable debugging",
+        "Label": "This will make the sequencer log into the console what it is doing"
+      },
+      "ShowTools": {
+        "Title": "啟用調試",
+        "Label": "這將使音序器登錄到控制台它正在做什麼"
+      },
+      "ShowTokenTools": {
+        "Title": "顯示Sequencer工具在控制Token時",
+        "Label": "在側欄上顯示或隱藏 Sequencer 工具"
+      },
+      "EnableEffects": {
+        "Title": "啟用效果",
+        "Label": "啟用此客戶端播放的效果"
+      },
+      "EnableSounds": {
+        "Title": "啟用聲音",
+        "Label": "允許在此客戶端播放聲音"
+      },
+      "ExternalEffectOpacity": {
+        "Title": "外部效應不透明度",
+        "Label": "如果您創建的效果旨在供其他玩家而非您播放，將此設置為 0 以外的任何值都會導致效果也為您顯示，但靜音。所有效果始終顯示給 GM。"
+      },
+      "Permission": {
+        "EffectCreate": {
+          "Title": "Sequencer:播放效果",
+          "Label": "允許選定角色及以上角色的玩家通過宏和Sequencer Effect Player播放效果。"
+        },
+        "EffectDelete": {
+          "Title": "Sequencer: 移除所有效果",
+          "Label": "允許選定角色及以上角色的玩家通過音序器效果管理器移除任何效果。"
+        },
+        "SoundCreate": {
+          "Title": "Sequencer: 播放聲音",
+          "Label": "允許選定角色及以上角色的玩家通過播放聲音"
+        },
+        "PreloadClients": {
+          "Title": "Sequencer: 預加載",
+          "Label": "允許選定角色及以上角色的玩家能夠為其他玩家預加載效果和聲音。"
+        },
+        "UseSidebarTools": {
+          "Title": "Sequencer: 使用側邊欄工具",
+          "Label": "允許選中角色及以上角色的玩家使用側邊欄工具（還需要能打出效果）。"
+        }
+      }
+    },
+
+    "Permission": {
+      "Player": "玩家及以上",
+      "Trusted": "可信玩家及以上",
+      "Assistant": "助理GM及以上",
+      "GM": "只有 GM"
+    }
+  }
+}
